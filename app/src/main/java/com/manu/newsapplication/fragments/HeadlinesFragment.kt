@@ -22,7 +22,7 @@ import com.manu.newsapplication.utils.Constants
 import com.manu.newsapplication.utils.Resource
 import com.manu.newsapplication.viewmodel.NewsViewModel
 
-class HeadlinesFragment : Fragment() {
+class HeadlinesFragment : Fragment(R.layout.fragment_headlines) {
 
     lateinit var newsViewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
