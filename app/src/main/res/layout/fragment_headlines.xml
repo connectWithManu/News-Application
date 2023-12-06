@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Headlines."
         android:textSize="30sp"
-        android:fontFamily="@font/poppins"
+        android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/purple"
         android:textStyle="bold"
         android:layout_marginStart="8dp"
@@ -30,6 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <include
         android:id="@+id/itemHeadlinesError"
         layout="@layout/item_error"
@@ -42,6 +43,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <ProgressBar
         android:id="@+id/paginationProgressBar"
         style="?attr/progressBarStyle"
